@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting</title>
+<style>
+    body{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: medium;
+    }
+    h1{
+        color: red; text-align: center;
+    }
+    table{
+        margin: auto;
+        width: 80%;
+        row-gap: 50px;        
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        border-collapse: collapse;
+        text-transform: uppercase;
+    }
+    thead tr th {
+        background-color: rgb(204, 204, 204);
+        color:black;
+        border: 1px solid black;
+        padding: 5px;
+    }
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+        border: 1px solid black;
+    }
+</style>
+</head>
+<body>
+    <h1>Voting tables</h1>
+    <hr>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th></th>
+                <th>A</th>
+                <th>B</th>
+                <th>C</th>
+                <th>D</th>
+                <th>E</th>
+                <th style="background-color: yellow;">F</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-color: rgb(28, 28, 82); color:white; border: 1px solid black;">
+                <td style="background-color: yellow; text-align: center;">1</td>
+                <td>PS_Code</td>
+                <td>PS_Name</td>
+                <td style="text-align:left;">Region_Name</td>
+                <td>District_Name</td>
+                <td>Constituency_Name</td>
+                <td>Registered_Voters</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">2</td>
+                <td>A00111</td>
+                <td>METH PRM KUSA</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">341</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">3</td>
+                <td>A00112</td>
+                <td>pentecost church denkye</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">172</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">4</td>
+                <td>A00113</td>
+                <td>council hall fomena</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">533</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">5</td>
+                <td>A00114</td>
+                <td>d/a prim fomena</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">312</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">6</td>
+                <td>A00115</td>
+                <td>prison camp new ayaase</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">338</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">7</td>
+                <td>A00116</td>
+                <td>salvation army church fomena</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">757</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">8</td>
+                <td>A00117</td>
+                <td>ahmadiya snr high sch fomena</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">334</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">9</td>
+                <td>A00118</td>
+                <td>chief's palace fomena</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">484</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">10</td>
+                <td>A00119</td>
+                <td>catholic prm sch old ayaase</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">441</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">11</td>
+                <td>A00120</td>
+                <td>junior sec sch old ayaase</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">457</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">12</td>
+                <td>A00121</td>
+                <td>d/a prm bena</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">178</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">13</td>
+                <td>A00122</td>
+                <td>dompoase s.h.s</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">642</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">14</td>
+                <td>A00123</td>
+                <td>district education office dompoase</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">933</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">15</td>
+                <td>A00124</td>
+                <td>demo j h dompoase</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">251</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">16</td>
+                <td>A00125</td>
+                <td>market square dompoase</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">522</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">17</td>
+                <td>A00126</td>
+                <td>doabin d/a j h s dompoase</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">622</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">18</td>
+                <td>A00127</td>
+                <td>buabin d/a prm, dompoase</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">209</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">19</td>
+                <td>A00128</td>
+                <td>cocoa shed dompoase</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">325</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">20</td>
+                <td>A00129</td>
+                <td>demo prim sch dompoase/td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">191</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">21</td>
+                <td>A00130</td>
+                <td>d/a prim sch agogooso</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">412</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">22</td>
+                <td>A00131</td>
+                <td>d/a primary school ahinsan</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">401</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">23</td>
+                <td>A00132</td>
+                <td>d/a jhs medoma</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">673</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">24</td>
+                <td>A00133</td>
+                <td>roman catholic prim medona</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">502</td>
+            </tr>
+            <tr>
+                <td style="background-color:rgb(204, 204, 204);text-align: center;">25</td>
+                <td>A00134</td>
+                <td>d/a jhs kyeaboso</td>
+                <td>ASHANTI</td>
+                <td>ADANSI NORTH</td>
+                <td>FOMENA</td>
+                <td style="text-align:right;">268</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
